@@ -4,7 +4,7 @@ import xml.etree.ElementTree as ET
 import sys
 
 
-class SaveXml:
+class LoadXml:
     
     @staticmethod
     def main(args):
@@ -33,4 +33,4 @@ class SaveXml:
 
 
 if __name__ == "__main__":
-    SaveXml.main(sys.argv)
+    LoadXml.main(sys.argv)
